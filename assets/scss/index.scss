@@ -1,2 +1,12 @@
 @import "__variables";
 @import "__reset";
+
+/* components */
+@import "./header/_header";
+@import "./nav/_nav";
+
+.container {
+  max-width: var(--max-desktop-width);
+  width: 90%;
+  margin: 0 auto;
+}

@@ -1,0 +1,64 @@
+.nav {
+  padding-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    &__links {
+      list-style-type: none;
+    }
+
+    &__link {
+      display: inline-block;
+      margin-right: 30px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 22px;
+      color: #9e9aa8;
+      cursor: pointer;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__right {
+    &__loginbtn {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 22px;
+      /* identical to box height */
+      color: #9E9AA8;
+      border: none;
+      outline: none;
+      background: transparent;
+      cursor: pointer;
+      margin-right: 38px;
+    }
+
+    &__signupbtn {
+      background: #2BD0D0;
+      border-radius: 28px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 22px;
+      color: #FFFFFF;
+      border: none;
+      padding: 8px 25px;
+      cursor: pointer;
+    }
+  }
+
+  &__right {
+  }
+}
