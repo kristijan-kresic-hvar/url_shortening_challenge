@@ -4,6 +4,7 @@
 /* components */
 @import "./header/_header";
 @import "./nav/_nav";
+@import "./main/_main";
 
 .container {
   max-width: var(--max-desktop-width);

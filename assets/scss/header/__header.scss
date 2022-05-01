@@ -5,7 +5,6 @@
   background-repeat: no-repeat;
   background-position: 100% center;
   background-size: 45rem;
-  border: 1px solid black;
   position: relative;
 
   &__content {
@@ -62,7 +61,7 @@
     background: url("../images/bg-shorten-desktop.svg") #3a3054;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 90%;
     max-width: var(--max-desktop-width);
     border-radius: 10px;
     display: flex;
